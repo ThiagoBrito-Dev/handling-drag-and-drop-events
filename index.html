@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>SKanB | Simple Kanban Board</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="boards">
+      <div class="board">
+        <h3>Todo</h3>
+
+        <div class="dropzone">
+          <div class="card" draggable="true">
+            <div class="status green"></div>
+            <div class="content">Make a post about what you've learned</div>
+          </div>
+        </div>
+      </div>
+      <div class="board">
+        <h3>In progress</h3>
+
+        <div class="dropzone">
+          <div class="card" draggable="true">
+            <div class="status blue"></div>
+            <div class="content">Code a basic component</div>
+          </div>
+        </div>
+      </div>
+      <div class="board">
+        <h3>Done</h3>
+
+        <div class="dropzone">
+          <div class="card" draggable="true">
+            <div class="status red"></div>
+            <div class="content">Develop an application</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
