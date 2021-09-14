@@ -27,9 +27,15 @@ div.board h3 {
   color: #fd951fcc;
 }
 
+div.board div.dropzone,
+div.dropzone div.card {
+  transition-duration: 0.4s;
+}
+
 div.board div.dropzone {
   min-width: 287.5px;
   min-height: 200px;
+  margin: 0.75rem 0;
 }
 
 div.dropzone div.card {
@@ -60,4 +66,17 @@ div.card div.status.blue {
 
 div.card div.status.red {
   background-color: #922020;
+}
+
+div.highlight {
+  background-color: #fd951f08;
+}
+
+.is-dragging {
+  cursor: move;
+  opacity: 0.3;
+}
+
+div.is-over {
+  background-color: #4cd13711;
 }
