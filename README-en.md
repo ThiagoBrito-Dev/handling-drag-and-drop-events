@@ -15,9 +15,9 @@
 ## README versions
 
 <div>
-  <a href="https://github.com/ThiagoBrito-Dev/handling-drag-and-drop-events/blob/main/README.md">
+  <a href="https://github.com/trybrito/handling-drag-and-drop-events/blob/main/README.md">
     Portuguese (pt-br)</a>
   |   
-  <a href="https://github.com/ThiagoBrito-Dev/handling-drag-and-drop-events/blob/main/README-en.md">
+  <a href="https://github.com/trybrito/handling-drag-and-drop-events/blob/main/README-en.md">
     English (en-us)</a>
 </div>
